@@ -1,0 +1,67 @@
+{
+  "name": "mankey",
+  "height": 5,
+  "weight": 280,
+  "types": [
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "vital-spirit"
+      }
+    },
+    {
+      "ability": {
+        "name": "anger-point"
+      }
+    },
+    {
+      "ability": {
+        "name": "defiant"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 70
+    }
+  ]
+}

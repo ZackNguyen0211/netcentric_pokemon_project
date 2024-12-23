@@ -1,0 +1,72 @@
+{
+  "name": "skiploom",
+  "height": 6,
+  "weight": 10,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "chlorophyll"
+      }
+    },
+    {
+      "ability": {
+        "name": "leaf-guard"
+      }
+    },
+    {
+      "ability": {
+        "name": "infiltrator"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

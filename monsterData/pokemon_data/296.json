@@ -1,0 +1,67 @@
+{
+  "name": "makuhita",
+  "height": 10,
+  "weight": 864,
+  "types": [
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "thick-fat"
+      }
+    },
+    {
+      "ability": {
+        "name": "guts"
+      }
+    },
+    {
+      "ability": {
+        "name": "sheer-force"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 20
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 25
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "drilbur",
+  "height": 3,
+  "weight": 85,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "sand-rush"
+      }
+    },
+    {
+      "ability": {
+        "name": "sand-force"
+      }
+    },
+    {
+      "ability": {
+        "name": "mold-breaker"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 68
+    }
+  ]
+}

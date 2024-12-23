@@ -1,0 +1,67 @@
+{
+  "name": "chansey",
+  "height": 11,
+  "weight": 346,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "natural-cure"
+      }
+    },
+    {
+      "ability": {
+        "name": "serene-grace"
+      }
+    },
+    {
+      "ability": {
+        "name": "healer"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 250
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 5
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 5
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 50
+    }
+  ]
+}

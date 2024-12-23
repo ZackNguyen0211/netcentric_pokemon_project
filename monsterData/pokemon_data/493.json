@@ -1,0 +1,57 @@
+{
+  "name": "arceus",
+  "height": 32,
+  "weight": 3200,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "multitype"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 120
+    }
+  ]
+}

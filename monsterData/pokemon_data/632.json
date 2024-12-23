@@ -1,0 +1,72 @@
+{
+  "name": "durant",
+  "height": 3,
+  "weight": 330,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "steel"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    },
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    },
+    {
+      "ability": {
+        "name": "truant"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 58
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 109
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 112
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 109
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "venipede",
+  "height": 4,
+  "weight": 53,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "poison"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "poison-point"
+      }
+    },
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    },
+    {
+      "ability": {
+        "name": "speed-boost"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 59
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 39
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 57
+    }
+  ]
+}

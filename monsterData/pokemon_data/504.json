@@ -1,0 +1,67 @@
+{
+  "name": "patrat",
+  "height": 5,
+  "weight": 116,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "run-away"
+      }
+    },
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    },
+    {
+      "ability": {
+        "name": "analytic"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 39
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 39
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 42
+    }
+  ]
+}

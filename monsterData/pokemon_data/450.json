@@ -1,0 +1,62 @@
+{
+  "name": "hippowdon",
+  "height": 20,
+  "weight": 3000,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "sand-stream"
+      }
+    },
+    {
+      "ability": {
+        "name": "sand-force"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 108
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 112
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 118
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 68
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 47
+    }
+  ]
+}

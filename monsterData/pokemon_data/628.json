@@ -1,0 +1,72 @@
+{
+  "name": "braviary",
+  "height": 15,
+  "weight": 410,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    },
+    {
+      "ability": {
+        "name": "sheer-force"
+      }
+    },
+    {
+      "ability": {
+        "name": "defiant"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 123
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 57
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

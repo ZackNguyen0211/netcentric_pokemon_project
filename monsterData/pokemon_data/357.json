@@ -1,0 +1,72 @@
+{
+  "name": "tropius",
+  "height": 20,
+  "weight": 1000,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "chlorophyll"
+      }
+    },
+    {
+      "ability": {
+        "name": "solar-power"
+      }
+    },
+    {
+      "ability": {
+        "name": "harvest"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 99
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 68
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 83
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 87
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 51
+    }
+  ]
+}

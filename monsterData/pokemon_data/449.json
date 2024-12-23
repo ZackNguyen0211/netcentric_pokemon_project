@@ -1,0 +1,62 @@
+{
+  "name": "hippopotas",
+  "height": 8,
+  "weight": 495,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "sand-stream"
+      }
+    },
+    {
+      "ability": {
+        "name": "sand-force"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 68
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 78
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 42
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 32
+    }
+  ]
+}

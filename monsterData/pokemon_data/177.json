@@ -1,0 +1,72 @@
+{
+  "name": "natu",
+  "height": 2,
+  "weight": 20,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "synchronize"
+      }
+    },
+    {
+      "ability": {
+        "name": "early-bird"
+      }
+    },
+    {
+      "ability": {
+        "name": "magic-bounce"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 70
+    }
+  ]
+}

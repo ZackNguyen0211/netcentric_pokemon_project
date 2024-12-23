@@ -1,0 +1,72 @@
+{
+  "name": "krokorok",
+  "height": 10,
+  "weight": 334,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    },
+    {
+      "type": {
+        "name": "dark"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "intimidate"
+      }
+    },
+    {
+      "ability": {
+        "name": "moxie"
+      }
+    },
+    {
+      "ability": {
+        "name": "anger-point"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 82
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 74
+    }
+  ]
+}

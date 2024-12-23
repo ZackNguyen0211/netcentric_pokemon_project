@@ -1,0 +1,67 @@
+{
+  "name": "ekans",
+  "height": 20,
+  "weight": 69,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "intimidate"
+      }
+    },
+    {
+      "ability": {
+        "name": "shed-skin"
+      }
+    },
+    {
+      "ability": {
+        "name": "unnerve"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 44
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 54
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "delibird",
+  "height": 9,
+  "weight": 160,
+  "types": [
+    {
+      "type": {
+        "name": "ice"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "vital-spirit"
+      }
+    },
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    },
+    {
+      "ability": {
+        "name": "insomnia"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 75
+    }
+  ]
+}

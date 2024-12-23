@@ -1,0 +1,67 @@
+{
+  "name": "bunnelby",
+  "height": 4,
+  "weight": 50,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pickup"
+      }
+    },
+    {
+      "ability": {
+        "name": "cheek-pouch"
+      }
+    },
+    {
+      "ability": {
+        "name": "huge-power"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 36
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 32
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 36
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 57
+    }
+  ]
+}

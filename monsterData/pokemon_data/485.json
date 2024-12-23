@@ -1,0 +1,67 @@
+{
+  "name": "heatran",
+  "height": 17,
+  "weight": 4300,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    },
+    {
+      "type": {
+        "name": "steel"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "flash-fire"
+      }
+    },
+    {
+      "ability": {
+        "name": "flame-body"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 91
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 106
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 106
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 77
+    }
+  ]
+}

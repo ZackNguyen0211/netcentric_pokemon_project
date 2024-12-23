@@ -1,0 +1,57 @@
+{
+  "name": "cherrim",
+  "height": 5,
+  "weight": 93,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "flower-gift"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 87
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 78
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "crawdaunt",
+  "height": 11,
+  "weight": 328,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "dark"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "hyper-cutter"
+      }
+    },
+    {
+      "ability": {
+        "name": "shell-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "adaptability"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

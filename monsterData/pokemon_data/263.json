@@ -1,0 +1,67 @@
+{
+  "name": "zigzagoon",
+  "height": 4,
+  "weight": 175,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pickup"
+      }
+    },
+    {
+      "ability": {
+        "name": "gluttony"
+      }
+    },
+    {
+      "ability": {
+        "name": "quick-feet"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 41
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 41
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 60
+    }
+  ]
+}

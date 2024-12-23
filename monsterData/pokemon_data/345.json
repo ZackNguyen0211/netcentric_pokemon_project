@@ -1,0 +1,67 @@
+{
+  "name": "lileep",
+  "height": 10,
+  "weight": 238,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    },
+    {
+      "type": {
+        "name": "grass"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "suction-cups"
+      }
+    },
+    {
+      "ability": {
+        "name": "storm-drain"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 66
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 41
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 77
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 61
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 87
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 23
+    }
+  ]
+}

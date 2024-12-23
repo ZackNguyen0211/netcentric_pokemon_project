@@ -1,0 +1,67 @@
+{
+  "name": "remoraid",
+  "height": 6,
+  "weight": 120,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    },
+    {
+      "ability": {
+        "name": "sniper"
+      }
+    },
+    {
+      "ability": {
+        "name": "moody"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 65
+    }
+  ]
+}

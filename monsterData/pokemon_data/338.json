@@ -1,0 +1,62 @@
+{
+  "name": "solrock",
+  "height": 12,
+  "weight": 1540,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    },
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "levitate"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 70
+    }
+  ]
+}

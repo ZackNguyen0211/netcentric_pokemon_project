@@ -1,0 +1,72 @@
+{
+  "name": "swadloon",
+  "height": 5,
+  "weight": 73,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "grass"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "leaf-guard"
+      }
+    },
+    {
+      "ability": {
+        "name": "chlorophyll"
+      }
+    },
+    {
+      "ability": {
+        "name": "overcoat"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 42
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "voltorb",
+  "height": 5,
+  "weight": 104,
+  "types": [
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "soundproof"
+      }
+    },
+    {
+      "ability": {
+        "name": "static"
+      }
+    },
+    {
+      "ability": {
+        "name": "aftermath"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 100
+    }
+  ]
+}

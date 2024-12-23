@@ -1,0 +1,72 @@
+{
+  "name": "lairon",
+  "height": 9,
+  "weight": 1200,
+  "types": [
+    {
+      "type": {
+        "name": "steel"
+      }
+    },
+    {
+      "type": {
+        "name": "rock"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "sturdy"
+      }
+    },
+    {
+      "ability": {
+        "name": "rock-head"
+      }
+    },
+    {
+      "ability": {
+        "name": "heavy-metal"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 140
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 40
+    }
+  ]
+}

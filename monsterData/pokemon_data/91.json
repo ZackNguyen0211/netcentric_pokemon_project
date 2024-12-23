@@ -1,0 +1,72 @@
+{
+  "name": "cloyster",
+  "height": 15,
+  "weight": 1325,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "ice"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "shell-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "skill-link"
+      }
+    },
+    {
+      "ability": {
+        "name": "overcoat"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 180
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 70
+    }
+  ]
+}

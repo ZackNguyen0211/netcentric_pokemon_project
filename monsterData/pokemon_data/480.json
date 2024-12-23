@@ -1,0 +1,57 @@
+{
+  "name": "uxie",
+  "height": 3,
+  "weight": 3,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "levitate"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 95
+    }
+  ]
+}

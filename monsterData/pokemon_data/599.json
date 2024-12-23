@@ -1,0 +1,67 @@
+{
+  "name": "klink",
+  "height": 3,
+  "weight": 210,
+  "types": [
+    {
+      "type": {
+        "name": "steel"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "plus"
+      }
+    },
+    {
+      "ability": {
+        "name": "minus"
+      }
+    },
+    {
+      "ability": {
+        "name": "clear-body"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 30
+    }
+  ]
+}

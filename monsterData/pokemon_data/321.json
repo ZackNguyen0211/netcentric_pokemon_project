@@ -1,0 +1,67 @@
+{
+  "name": "wailord",
+  "height": 145,
+  "weight": 3980,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "water-veil"
+      }
+    },
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    },
+    {
+      "ability": {
+        "name": "pressure"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 170
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 60
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "ambipom",
+  "height": 12,
+  "weight": 203,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "technician"
+      }
+    },
+    {
+      "ability": {
+        "name": "pickup"
+      }
+    },
+    {
+      "ability": {
+        "name": "skill-link"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 66
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 66
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 115
+    }
+  ]
+}

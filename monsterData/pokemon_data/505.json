@@ -1,0 +1,67 @@
+{
+  "name": "watchog",
+  "height": 11,
+  "weight": 270,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "illuminate"
+      }
+    },
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    },
+    {
+      "ability": {
+        "name": "analytic"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 77
+    }
+  ]
+}

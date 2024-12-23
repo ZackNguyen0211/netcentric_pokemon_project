@@ -1,0 +1,62 @@
+{
+  "name": "grotle",
+  "height": 11,
+  "weight": 970,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "overgrow"
+      }
+    },
+    {
+      "ability": {
+        "name": "shell-armor"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 89
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 36
+    }
+  ]
+}

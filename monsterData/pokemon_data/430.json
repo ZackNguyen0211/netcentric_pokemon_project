@@ -1,0 +1,72 @@
+{
+  "name": "honchkrow",
+  "height": 9,
+  "weight": 273,
+  "types": [
+    {
+      "type": {
+        "name": "dark"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "insomnia"
+      }
+    },
+    {
+      "ability": {
+        "name": "super-luck"
+      }
+    },
+    {
+      "ability": {
+        "name": "moxie"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 52
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 52
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 71
+    }
+  ]
+}

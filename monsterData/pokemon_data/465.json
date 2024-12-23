@@ -1,0 +1,67 @@
+{
+  "name": "tangrowth",
+  "height": 20,
+  "weight": 1286,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "chlorophyll"
+      }
+    },
+    {
+      "ability": {
+        "name": "leaf-guard"
+      }
+    },
+    {
+      "ability": {
+        "name": "regenerator"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 50
+    }
+  ]
+}

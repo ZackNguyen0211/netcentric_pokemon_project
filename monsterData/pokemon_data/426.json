@@ -1,0 +1,72 @@
+{
+  "name": "drifblim",
+  "height": 12,
+  "weight": 150,
+  "types": [
+    {
+      "type": {
+        "name": "ghost"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "aftermath"
+      }
+    },
+    {
+      "ability": {
+        "name": "unburden"
+      }
+    },
+    {
+      "ability": {
+        "name": "flare-boost"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 150
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 44
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 54
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "numel",
+  "height": 7,
+  "weight": 240,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    },
+    {
+      "ability": {
+        "name": "simple"
+      }
+    },
+    {
+      "ability": {
+        "name": "own-tempo"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 35
+    }
+  ]
+}

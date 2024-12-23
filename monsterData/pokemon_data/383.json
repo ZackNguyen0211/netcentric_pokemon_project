@@ -1,0 +1,57 @@
+{
+  "name": "groudon",
+  "height": 35,
+  "weight": 9500,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "drought"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 150
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 140
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 90
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "pidgeotto",
+  "height": 11,
+  "weight": 300,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    },
+    {
+      "ability": {
+        "name": "tangled-feet"
+      }
+    },
+    {
+      "ability": {
+        "name": "big-pecks"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 71
+    }
+  ]
+}

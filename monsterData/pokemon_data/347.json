@@ -1,0 +1,67 @@
+{
+  "name": "anorith",
+  "height": 7,
+  "weight": 125,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    },
+    {
+      "type": {
+        "name": "bug"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "battle-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 75
+    }
+  ]
+}

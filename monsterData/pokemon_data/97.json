@@ -1,0 +1,67 @@
+{
+  "name": "hypno",
+  "height": 16,
+  "weight": 756,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "insomnia"
+      }
+    },
+    {
+      "ability": {
+        "name": "forewarn"
+      }
+    },
+    {
+      "ability": {
+        "name": "inner-focus"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 73
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 73
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 67
+    }
+  ]
+}

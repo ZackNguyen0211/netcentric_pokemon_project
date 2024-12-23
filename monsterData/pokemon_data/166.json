@@ -1,0 +1,72 @@
+{
+  "name": "ledian",
+  "height": 14,
+  "weight": 356,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    },
+    {
+      "ability": {
+        "name": "early-bird"
+      }
+    },
+    {
+      "ability": {
+        "name": "iron-fist"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

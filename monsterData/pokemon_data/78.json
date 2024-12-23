@@ -1,0 +1,67 @@
+{
+  "name": "rapidash",
+  "height": 17,
+  "weight": 950,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "run-away"
+      }
+    },
+    {
+      "ability": {
+        "name": "flash-fire"
+      }
+    },
+    {
+      "ability": {
+        "name": "flame-body"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 105
+    }
+  ]
+}

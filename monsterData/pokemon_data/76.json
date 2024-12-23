@@ -1,0 +1,72 @@
+{
+  "name": "golem",
+  "height": 14,
+  "weight": 3000,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "rock-head"
+      }
+    },
+    {
+      "ability": {
+        "name": "sturdy"
+      }
+    },
+    {
+      "ability": {
+        "name": "sand-veil"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 45
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "ampharos",
+  "height": 14,
+  "weight": 615,
+  "types": [
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "static"
+      }
+    },
+    {
+      "ability": {
+        "name": "plus"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

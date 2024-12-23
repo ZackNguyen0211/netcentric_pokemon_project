@@ -1,0 +1,72 @@
+{
+  "name": "whiscash",
+  "height": 9,
+  "weight": 236,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    },
+    {
+      "ability": {
+        "name": "anticipation"
+      }
+    },
+    {
+      "ability": {
+        "name": "hydration"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 78
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 73
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 76
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 71
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 60
+    }
+  ]
+}

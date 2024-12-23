@@ -1,0 +1,67 @@
+{
+  "name": "musharna",
+  "height": 11,
+  "weight": 605,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "forewarn"
+      }
+    },
+    {
+      "ability": {
+        "name": "synchronize"
+      }
+    },
+    {
+      "ability": {
+        "name": "telepathy"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 116
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 107
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 29
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "monferno",
+  "height": 9,
+  "weight": 220,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    },
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "blaze"
+      }
+    },
+    {
+      "ability": {
+        "name": "iron-fist"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 64
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 78
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 52
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 78
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 52
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 81
+    }
+  ]
+}

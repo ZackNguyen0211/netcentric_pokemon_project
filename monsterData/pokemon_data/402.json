@@ -1,0 +1,62 @@
+{
+  "name": "kricketune",
+  "height": 10,
+  "weight": 255,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    },
+    {
+      "ability": {
+        "name": "technician"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 77
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 51
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 51
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 65
+    }
+  ]
+}

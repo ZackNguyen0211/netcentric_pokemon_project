@@ -1,0 +1,62 @@
+{
+  "name": "burmy",
+  "height": 2,
+  "weight": 34,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "shed-skin"
+      }
+    },
+    {
+      "ability": {
+        "name": "overcoat"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 29
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 29
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 36
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "armaldo",
+  "height": 15,
+  "weight": 682,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    },
+    {
+      "type": {
+        "name": "bug"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "battle-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 45
+    }
+  ]
+}

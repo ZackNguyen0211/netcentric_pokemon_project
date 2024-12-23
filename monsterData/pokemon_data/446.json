@@ -1,0 +1,67 @@
+{
+  "name": "munchlax",
+  "height": 6,
+  "weight": 1050,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pickup"
+      }
+    },
+    {
+      "ability": {
+        "name": "thick-fat"
+      }
+    },
+    {
+      "ability": {
+        "name": "gluttony"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 135
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 5
+    }
+  ]
+}

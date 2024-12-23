@@ -1,0 +1,62 @@
+{
+  "name": "wartortle",
+  "height": 10,
+  "weight": 225,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "torrent"
+      }
+    },
+    {
+      "ability": {
+        "name": "rain-dish"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 59
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 58
+    }
+  ]
+}

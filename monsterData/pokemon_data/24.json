@@ -1,0 +1,67 @@
+{
+  "name": "arbok",
+  "height": 35,
+  "weight": 650,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "intimidate"
+      }
+    },
+    {
+      "ability": {
+        "name": "shed-skin"
+      }
+    },
+    {
+      "ability": {
+        "name": "unnerve"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 79
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

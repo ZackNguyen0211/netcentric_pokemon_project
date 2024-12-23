@@ -1,0 +1,62 @@
+{
+  "name": "samurott",
+  "height": 15,
+  "weight": 946,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "torrent"
+      }
+    },
+    {
+      "ability": {
+        "name": "shell-armor"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 108
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 70
+    }
+  ]
+}

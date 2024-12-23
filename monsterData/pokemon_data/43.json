@@ -1,0 +1,67 @@
+{
+  "name": "oddish",
+  "height": 5,
+  "weight": 54,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    },
+    {
+      "type": {
+        "name": "poison"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "chlorophyll"
+      }
+    },
+    {
+      "ability": {
+        "name": "run-away"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 30
+    }
+  ]
+}

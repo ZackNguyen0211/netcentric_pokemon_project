@@ -1,0 +1,72 @@
+{
+  "name": "togekiss",
+  "height": 15,
+  "weight": 380,
+  "types": [
+    {
+      "type": {
+        "name": "fairy"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    },
+    {
+      "ability": {
+        "name": "serene-grace"
+      }
+    },
+    {
+      "ability": {
+        "name": "super-luck"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

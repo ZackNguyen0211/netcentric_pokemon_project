@@ -1,0 +1,72 @@
+{
+  "name": "nidoqueen",
+  "height": 13,
+  "weight": 600,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "poison-point"
+      }
+    },
+    {
+      "ability": {
+        "name": "rivalry"
+      }
+    },
+    {
+      "ability": {
+        "name": "sheer-force"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 92
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 87
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 76
+    }
+  ]
+}

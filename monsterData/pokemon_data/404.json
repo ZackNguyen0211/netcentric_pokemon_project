@@ -1,0 +1,67 @@
+{
+  "name": "luxio",
+  "height": 9,
+  "weight": 305,
+  "types": [
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "rivalry"
+      }
+    },
+    {
+      "ability": {
+        "name": "intimidate"
+      }
+    },
+    {
+      "ability": {
+        "name": "guts"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 49
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 49
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 60
+    }
+  ]
+}

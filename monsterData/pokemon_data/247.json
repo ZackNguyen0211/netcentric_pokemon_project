@@ -1,0 +1,62 @@
+{
+  "name": "pupitar",
+  "height": 12,
+  "weight": 1520,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "shed-skin"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 84
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 51
+    }
+  ]
+}

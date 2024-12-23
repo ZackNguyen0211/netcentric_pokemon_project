@@ -1,0 +1,62 @@
+{
+  "name": "zekrom",
+  "height": 29,
+  "weight": 3450,
+  "types": [
+    {
+      "type": {
+        "name": "dragon"
+      }
+    },
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "teravolt"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 150
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 90
+    }
+  ]
+}

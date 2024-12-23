@@ -1,0 +1,72 @@
+{
+  "name": "wigglytuff",
+  "height": 10,
+  "weight": 120,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    },
+    {
+      "type": {
+        "name": "fairy"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "cute-charm"
+      }
+    },
+    {
+      "ability": {
+        "name": "competitive"
+      }
+    },
+    {
+      "ability": {
+        "name": "frisk"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 140
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 45
+    }
+  ]
+}

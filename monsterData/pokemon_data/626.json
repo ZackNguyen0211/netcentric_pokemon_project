@@ -1,0 +1,67 @@
+{
+  "name": "bouffalant",
+  "height": 16,
+  "weight": 946,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "reckless"
+      }
+    },
+    {
+      "ability": {
+        "name": "sap-sipper"
+      }
+    },
+    {
+      "ability": {
+        "name": "soundproof"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

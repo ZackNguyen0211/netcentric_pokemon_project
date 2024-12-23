@@ -1,0 +1,72 @@
+{
+  "name": "gallade",
+  "height": 16,
+  "weight": 520,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    },
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "steadfast"
+      }
+    },
+    {
+      "ability": {
+        "name": "sharpness"
+      }
+    },
+    {
+      "ability": {
+        "name": "justified"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 68
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

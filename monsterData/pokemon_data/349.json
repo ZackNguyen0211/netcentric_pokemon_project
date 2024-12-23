@@ -1,0 +1,67 @@
+{
+  "name": "feebas",
+  "height": 6,
+  "weight": 74,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    },
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    },
+    {
+      "ability": {
+        "name": "adaptability"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 20
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 15
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 20
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 10
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

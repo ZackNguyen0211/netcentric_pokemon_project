@@ -1,0 +1,67 @@
+{
+  "name": "fearow",
+  "height": 12,
+  "weight": 380,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    },
+    {
+      "ability": {
+        "name": "sniper"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 61
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 61
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 100
+    }
+  ]
+}

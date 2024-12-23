@@ -1,0 +1,62 @@
+{
+  "name": "exploud",
+  "height": 15,
+  "weight": 840,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "soundproof"
+      }
+    },
+    {
+      "ability": {
+        "name": "scrappy"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 104
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 91
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 91
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 73
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 68
+    }
+  ]
+}

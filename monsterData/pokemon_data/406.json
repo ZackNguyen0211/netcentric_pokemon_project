@@ -1,0 +1,72 @@
+{
+  "name": "budew",
+  "height": 2,
+  "weight": 12,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    },
+    {
+      "type": {
+        "name": "poison"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "natural-cure"
+      }
+    },
+    {
+      "ability": {
+        "name": "poison-point"
+      }
+    },
+    {
+      "ability": {
+        "name": "leaf-guard"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

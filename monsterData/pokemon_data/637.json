@@ -1,0 +1,67 @@
+{
+  "name": "volcarona",
+  "height": 16,
+  "weight": 460,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "fire"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "flame-body"
+      }
+    },
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 135
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 100
+    }
+  ]
+}

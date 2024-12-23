@@ -1,0 +1,72 @@
+{
+  "name": "scyther",
+  "height": 15,
+  "weight": 560,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    },
+    {
+      "ability": {
+        "name": "technician"
+      }
+    },
+    {
+      "ability": {
+        "name": "steadfast"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 105
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "slowking",
+  "height": 20,
+  "weight": 795,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    },
+    {
+      "ability": {
+        "name": "own-tempo"
+      }
+    },
+    {
+      "ability": {
+        "name": "regenerator"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 30
+    }
+  ]
+}

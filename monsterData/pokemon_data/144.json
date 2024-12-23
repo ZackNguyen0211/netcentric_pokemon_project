@@ -1,0 +1,67 @@
+{
+  "name": "articuno",
+  "height": 17,
+  "weight": 554,
+  "types": [
+    {
+      "type": {
+        "name": "ice"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pressure"
+      }
+    },
+    {
+      "ability": {
+        "name": "snow-cloak"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

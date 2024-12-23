@@ -1,0 +1,62 @@
+{
+  "name": "zangoose",
+  "height": 13,
+  "weight": 403,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "immunity"
+      }
+    },
+    {
+      "ability": {
+        "name": "toxic-boost"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 73
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 90
+    }
+  ]
+}

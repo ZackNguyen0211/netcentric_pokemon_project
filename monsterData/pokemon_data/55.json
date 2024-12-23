@@ -1,0 +1,67 @@
+{
+  "name": "golduck",
+  "height": 17,
+  "weight": 766,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "damp"
+      }
+    },
+    {
+      "ability": {
+        "name": "cloud-nine"
+      }
+    },
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 82
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 78
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "sceptile",
+  "height": 17,
+  "weight": 522,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "overgrow"
+      }
+    },
+    {
+      "ability": {
+        "name": "unburden"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 120
+    }
+  ]
+}

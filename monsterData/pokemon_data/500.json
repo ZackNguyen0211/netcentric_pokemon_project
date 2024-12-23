@@ -1,0 +1,67 @@
+{
+  "name": "emboar",
+  "height": 16,
+  "weight": 1500,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    },
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "blaze"
+      }
+    },
+    {
+      "ability": {
+        "name": "reckless"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 123
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 65
+    }
+  ]
+}

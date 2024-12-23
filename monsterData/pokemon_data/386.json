@@ -1,0 +1,57 @@
+{
+  "name": "deoxys-normal",
+  "height": 17,
+  "weight": 608,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pressure"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 150
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 150
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 150
+    }
+  ]
+}

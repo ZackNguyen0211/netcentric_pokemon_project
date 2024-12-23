@@ -1,0 +1,62 @@
+{
+  "name": "suicune",
+  "height": 20,
+  "weight": 1870,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pressure"
+      }
+    },
+    {
+      "ability": {
+        "name": "inner-focus"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "tyrogue",
+  "height": 7,
+  "weight": 210,
+  "types": [
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "guts"
+      }
+    },
+    {
+      "ability": {
+        "name": "steadfast"
+      }
+    },
+    {
+      "ability": {
+        "name": "vital-spirit"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 35
+    }
+  ]
+}

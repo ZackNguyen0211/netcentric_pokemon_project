@@ -1,0 +1,62 @@
+{
+  "name": "regice",
+  "height": 18,
+  "weight": 1750,
+  "types": [
+    {
+      "type": {
+        "name": "ice"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "clear-body"
+      }
+    },
+    {
+      "ability": {
+        "name": "ice-body"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 200
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 50
+    }
+  ]
+}

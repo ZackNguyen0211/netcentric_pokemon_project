@@ -1,0 +1,62 @@
+{
+  "name": "zweilous",
+  "height": 14,
+  "weight": 500,
+  "types": [
+    {
+      "type": {
+        "name": "dark"
+      }
+    },
+    {
+      "type": {
+        "name": "dragon"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 58
+    }
+  ]
+}

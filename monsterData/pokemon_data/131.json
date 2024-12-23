@@ -1,0 +1,72 @@
+{
+  "name": "lapras",
+  "height": 25,
+  "weight": 2200,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "ice"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "water-absorb"
+      }
+    },
+    {
+      "ability": {
+        "name": "shell-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "hydration"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 60
+    }
+  ]
+}

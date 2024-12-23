@@ -1,0 +1,62 @@
+{
+  "name": "kyurem",
+  "height": 30,
+  "weight": 3250,
+  "types": [
+    {
+      "type": {
+        "name": "dragon"
+      }
+    },
+    {
+      "type": {
+        "name": "ice"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pressure"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 95
+    }
+  ]
+}

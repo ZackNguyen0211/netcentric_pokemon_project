@@ -1,0 +1,67 @@
+{
+  "name": "porygon-z",
+  "height": 9,
+  "weight": 340,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "adaptability"
+      }
+    },
+    {
+      "ability": {
+        "name": "download"
+      }
+    },
+    {
+      "ability": {
+        "name": "analytic"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 135
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 90
+    }
+  ]
+}

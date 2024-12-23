@@ -1,0 +1,72 @@
+{
+  "name": "camerupt",
+  "height": 19,
+  "weight": 2200,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "magma-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "solid-rock"
+      }
+    },
+    {
+      "ability": {
+        "name": "anger-point"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 40
+    }
+  ]
+}

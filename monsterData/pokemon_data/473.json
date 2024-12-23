@@ -1,0 +1,72 @@
+{
+  "name": "mamoswine",
+  "height": 25,
+  "weight": 2910,
+  "types": [
+    {
+      "type": {
+        "name": "ice"
+      }
+    },
+    {
+      "type": {
+        "name": "ground"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    },
+    {
+      "ability": {
+        "name": "snow-cloak"
+      }
+    },
+    {
+      "ability": {
+        "name": "thick-fat"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

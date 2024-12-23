@@ -1,0 +1,67 @@
+{
+  "name": "cleffa",
+  "height": 3,
+  "weight": 30,
+  "types": [
+    {
+      "type": {
+        "name": "fairy"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "cute-charm"
+      }
+    },
+    {
+      "ability": {
+        "name": "magic-guard"
+      }
+    },
+    {
+      "ability": {
+        "name": "friend-guard"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 28
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 15
+    }
+  ]
+}

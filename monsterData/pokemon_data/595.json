@@ -1,0 +1,72 @@
+{
+  "name": "joltik",
+  "height": 1,
+  "weight": 6,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "compound-eyes"
+      }
+    },
+    {
+      "ability": {
+        "name": "unnerve"
+      }
+    },
+    {
+      "ability": {
+        "name": "swarm"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 47
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 57
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 65
+    }
+  ]
+}

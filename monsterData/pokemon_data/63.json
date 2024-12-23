@@ -1,0 +1,67 @@
+{
+  "name": "abra",
+  "height": 9,
+  "weight": 195,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "synchronize"
+      }
+    },
+    {
+      "ability": {
+        "name": "inner-focus"
+      }
+    },
+    {
+      "ability": {
+        "name": "magic-guard"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 20
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 15
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 90
+    }
+  ]
+}

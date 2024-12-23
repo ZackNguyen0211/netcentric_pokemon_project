@@ -1,0 +1,62 @@
+{
+  "name": "simipour",
+  "height": 10,
+  "weight": 290,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "gluttony"
+      }
+    },
+    {
+      "ability": {
+        "name": "torrent"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 98
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 98
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 101
+    }
+  ]
+}

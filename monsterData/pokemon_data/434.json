@@ -1,0 +1,72 @@
+{
+  "name": "stunky",
+  "height": 4,
+  "weight": 192,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    },
+    {
+      "type": {
+        "name": "dark"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "stench"
+      }
+    },
+    {
+      "ability": {
+        "name": "aftermath"
+      }
+    },
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 47
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 41
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 41
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 74
+    }
+  ]
+}

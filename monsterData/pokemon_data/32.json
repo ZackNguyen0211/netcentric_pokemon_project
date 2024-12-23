@@ -1,0 +1,67 @@
+{
+  "name": "nidoran-m",
+  "height": 5,
+  "weight": 90,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "poison-point"
+      }
+    },
+    {
+      "ability": {
+        "name": "rivalry"
+      }
+    },
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 46
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 57
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 50
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "chandelure",
+  "height": 10,
+  "weight": 343,
+  "types": [
+    {
+      "type": {
+        "name": "ghost"
+      }
+    },
+    {
+      "type": {
+        "name": "fire"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "flash-fire"
+      }
+    },
+    {
+      "ability": {
+        "name": "flame-body"
+      }
+    },
+    {
+      "ability": {
+        "name": "infiltrator"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 145
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 80
+    }
+  ]
+}

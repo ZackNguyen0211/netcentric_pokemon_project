@@ -1,0 +1,72 @@
+{
+  "name": "yanmega",
+  "height": 19,
+  "weight": 515,
+  "types": [
+    {
+      "type": {
+        "name": "bug"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "speed-boost"
+      }
+    },
+    {
+      "ability": {
+        "name": "tinted-lens"
+      }
+    },
+    {
+      "ability": {
+        "name": "frisk"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 86
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 76
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 86
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 116
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 56
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 95
+    }
+  ]
+}

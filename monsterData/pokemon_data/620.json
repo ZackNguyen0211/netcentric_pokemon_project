@@ -1,0 +1,67 @@
+{
+  "name": "mienshao",
+  "height": 14,
+  "weight": 355,
+  "types": [
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "inner-focus"
+      }
+    },
+    {
+      "ability": {
+        "name": "regenerator"
+      }
+    },
+    {
+      "ability": {
+        "name": "reckless"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 105
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "rattata",
+  "height": 3,
+  "weight": 35,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "run-away"
+      }
+    },
+    {
+      "ability": {
+        "name": "guts"
+      }
+    },
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 56
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 72
+    }
+  ]
+}

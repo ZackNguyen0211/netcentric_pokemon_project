@@ -1,0 +1,67 @@
+{
+  "name": "lumineon",
+  "height": 12,
+  "weight": 240,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    },
+    {
+      "ability": {
+        "name": "storm-drain"
+      }
+    },
+    {
+      "ability": {
+        "name": "water-veil"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 76
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 86
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 91
+    }
+  ]
+}

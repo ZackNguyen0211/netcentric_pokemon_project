@@ -1,0 +1,72 @@
+{
+  "name": "sealeo",
+  "height": 11,
+  "weight": 876,
+  "types": [
+    {
+      "type": {
+        "name": "ice"
+      }
+    },
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "thick-fat"
+      }
+    },
+    {
+      "ability": {
+        "name": "ice-body"
+      }
+    },
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 45
+    }
+  ]
+}

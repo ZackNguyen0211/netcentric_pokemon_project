@@ -1,0 +1,72 @@
+{
+  "name": "whimsicott",
+  "height": 7,
+  "weight": 66,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    },
+    {
+      "type": {
+        "name": "fairy"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "prankster"
+      }
+    },
+    {
+      "ability": {
+        "name": "infiltrator"
+      }
+    },
+    {
+      "ability": {
+        "name": "chlorophyll"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 67
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 77
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 116
+    }
+  ]
+}

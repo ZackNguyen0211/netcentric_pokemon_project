@@ -1,0 +1,62 @@
+{
+  "name": "floatzel",
+  "height": 11,
+  "weight": 335,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    },
+    {
+      "ability": {
+        "name": "water-veil"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 115
+    }
+  ]
+}

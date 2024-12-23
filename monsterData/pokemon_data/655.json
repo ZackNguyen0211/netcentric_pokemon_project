@@ -1,0 +1,67 @@
+{
+  "name": "delphox",
+  "height": 15,
+  "weight": 390,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    },
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "blaze"
+      }
+    },
+    {
+      "ability": {
+        "name": "magician"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 69
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 114
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 104
+    }
+  ]
+}

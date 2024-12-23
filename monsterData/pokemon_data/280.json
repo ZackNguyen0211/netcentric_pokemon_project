@@ -1,0 +1,72 @@
+{
+  "name": "ralts",
+  "height": 4,
+  "weight": 66,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    },
+    {
+      "type": {
+        "name": "fairy"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "synchronize"
+      }
+    },
+    {
+      "ability": {
+        "name": "trace"
+      }
+    },
+    {
+      "ability": {
+        "name": "telepathy"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 28
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 40
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "yamask",
+  "height": 5,
+  "weight": 15,
+  "types": [
+    {
+      "type": {
+        "name": "ghost"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "mummy"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 30
+    }
+  ]
+}

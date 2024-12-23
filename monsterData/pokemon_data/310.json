@@ -1,0 +1,67 @@
+{
+  "name": "manectric",
+  "height": 15,
+  "weight": 402,
+  "types": [
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "static"
+      }
+    },
+    {
+      "ability": {
+        "name": "lightning-rod"
+      }
+    },
+    {
+      "ability": {
+        "name": "minus"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 105
+    }
+  ]
+}

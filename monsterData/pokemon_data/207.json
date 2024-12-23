@@ -1,0 +1,72 @@
+{
+  "name": "gligar",
+  "height": 11,
+  "weight": 648,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "hyper-cutter"
+      }
+    },
+    {
+      "ability": {
+        "name": "sand-veil"
+      }
+    },
+    {
+      "ability": {
+        "name": "immunity"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

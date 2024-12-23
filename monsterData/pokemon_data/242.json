@@ -1,0 +1,67 @@
+{
+  "name": "blissey",
+  "height": 15,
+  "weight": 468,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "natural-cure"
+      }
+    },
+    {
+      "ability": {
+        "name": "serene-grace"
+      }
+    },
+    {
+      "ability": {
+        "name": "healer"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 255
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 10
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 10
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 135
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

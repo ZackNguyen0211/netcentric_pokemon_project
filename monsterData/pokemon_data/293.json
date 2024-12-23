@@ -1,0 +1,62 @@
+{
+  "name": "whismur",
+  "height": 6,
+  "weight": 163,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "soundproof"
+      }
+    },
+    {
+      "ability": {
+        "name": "rattled"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 64
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 51
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 23
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 51
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 23
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 28
+    }
+  ]
+}

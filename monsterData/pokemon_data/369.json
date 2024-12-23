@@ -1,0 +1,72 @@
+{
+  "name": "relicanth",
+  "height": 10,
+  "weight": 234,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "rock"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    },
+    {
+      "ability": {
+        "name": "rock-head"
+      }
+    },
+    {
+      "ability": {
+        "name": "sturdy"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

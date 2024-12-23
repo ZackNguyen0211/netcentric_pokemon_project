@@ -1,0 +1,67 @@
+{
+  "name": "ferrothorn",
+  "height": 10,
+  "weight": 1100,
+  "types": [
+    {
+      "type": {
+        "name": "grass"
+      }
+    },
+    {
+      "type": {
+        "name": "steel"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "iron-barbs"
+      }
+    },
+    {
+      "ability": {
+        "name": "anticipation"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 74
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 94
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 131
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 54
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 116
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 20
+    }
+  ]
+}

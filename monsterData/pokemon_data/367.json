@@ -1,0 +1,62 @@
+{
+  "name": "huntail",
+  "height": 17,
+  "weight": 270,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    },
+    {
+      "ability": {
+        "name": "water-veil"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 104
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 94
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 52
+    }
+  ]
+}

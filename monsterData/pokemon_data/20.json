@@ -1,0 +1,67 @@
+{
+  "name": "raticate",
+  "height": 7,
+  "weight": 185,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "run-away"
+      }
+    },
+    {
+      "ability": {
+        "name": "guts"
+      }
+    },
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 81
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 97
+    }
+  ]
+}

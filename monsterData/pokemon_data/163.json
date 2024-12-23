@@ -1,0 +1,72 @@
+{
+  "name": "hoothoot",
+  "height": 7,
+  "weight": 212,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    },
+    {
+      "type": {
+        "name": "flying"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "insomnia"
+      }
+    },
+    {
+      "ability": {
+        "name": "keen-eye"
+      }
+    },
+    {
+      "ability": {
+        "name": "tinted-lens"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 36
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 56
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 50
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "druddigon",
+  "height": 16,
+  "weight": 1390,
+  "types": [
+    {
+      "type": {
+        "name": "dragon"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "rough-skin"
+      }
+    },
+    {
+      "ability": {
+        "name": "sheer-force"
+      }
+    },
+    {
+      "ability": {
+        "name": "mold-breaker"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 77
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 120
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 48
+    }
+  ]
+}

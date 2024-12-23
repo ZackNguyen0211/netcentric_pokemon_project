@@ -1,0 +1,72 @@
+{
+  "name": "chinchou",
+  "height": 5,
+  "weight": 120,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "volt-absorb"
+      }
+    },
+    {
+      "ability": {
+        "name": "illuminate"
+      }
+    },
+    {
+      "ability": {
+        "name": "water-absorb"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 38
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 56
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 56
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 67
+    }
+  ]
+}

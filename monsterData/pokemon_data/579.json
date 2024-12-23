@@ -1,0 +1,67 @@
+{
+  "name": "reuniclus",
+  "height": 10,
+  "weight": 201,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "overcoat"
+      }
+    },
+    {
+      "ability": {
+        "name": "magic-guard"
+      }
+    },
+    {
+      "ability": {
+        "name": "regenerator"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 30
+    }
+  ]
+}

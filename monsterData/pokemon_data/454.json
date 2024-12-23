@@ -1,0 +1,72 @@
+{
+  "name": "toxicroak",
+  "height": 13,
+  "weight": 444,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    },
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "anticipation"
+      }
+    },
+    {
+      "ability": {
+        "name": "dry-skin"
+      }
+    },
+    {
+      "ability": {
+        "name": "poison-touch"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 83
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 106
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 86
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

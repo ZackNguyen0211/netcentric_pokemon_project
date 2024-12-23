@@ -1,0 +1,67 @@
+{
+  "name": "absol",
+  "height": 12,
+  "weight": 470,
+  "types": [
+    {
+      "type": {
+        "name": "dark"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "pressure"
+      }
+    },
+    {
+      "ability": {
+        "name": "super-luck"
+      }
+    },
+    {
+      "ability": {
+        "name": "justified"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 130
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 75
+    }
+  ]
+}

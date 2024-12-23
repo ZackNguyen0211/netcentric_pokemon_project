@@ -1,0 +1,67 @@
+{
+  "name": "shuppet",
+  "height": 6,
+  "weight": 23,
+  "types": [
+    {
+      "type": {
+        "name": "ghost"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "insomnia"
+      }
+    },
+    {
+      "ability": {
+        "name": "frisk"
+      }
+    },
+    {
+      "ability": {
+        "name": "cursed-body"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 44
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 33
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 45
+    }
+  ]
+}

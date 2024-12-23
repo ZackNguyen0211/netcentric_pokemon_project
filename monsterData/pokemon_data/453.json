@@ -1,0 +1,72 @@
+{
+  "name": "croagunk",
+  "height": 7,
+  "weight": 230,
+  "types": [
+    {
+      "type": {
+        "name": "poison"
+      }
+    },
+    {
+      "type": {
+        "name": "fighting"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "anticipation"
+      }
+    },
+    {
+      "ability": {
+        "name": "dry-skin"
+      }
+    },
+    {
+      "ability": {
+        "name": "poison-touch"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 61
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 61
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 50
+    }
+  ]
+}

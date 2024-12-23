@@ -1,0 +1,72 @@
+{
+  "name": "carracosta",
+  "height": 12,
+  "weight": 810,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "rock"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "solid-rock"
+      }
+    },
+    {
+      "ability": {
+        "name": "sturdy"
+      }
+    },
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 74
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 108
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 133
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 83
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 32
+    }
+  ]
+}

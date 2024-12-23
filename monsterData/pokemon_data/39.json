@@ -1,0 +1,72 @@
+{
+  "name": "jigglypuff",
+  "height": 5,
+  "weight": 55,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    },
+    {
+      "type": {
+        "name": "fairy"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "cute-charm"
+      }
+    },
+    {
+      "ability": {
+        "name": "competitive"
+      }
+    },
+    {
+      "ability": {
+        "name": "friend-guard"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 20
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 45
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 20
+    }
+  ]
+}

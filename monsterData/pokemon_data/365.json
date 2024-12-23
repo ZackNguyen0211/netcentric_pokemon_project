@@ -1,0 +1,72 @@
+{
+  "name": "walrein",
+  "height": 14,
+  "weight": 1506,
+  "types": [
+    {
+      "type": {
+        "name": "ice"
+      }
+    },
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "thick-fat"
+      }
+    },
+    {
+      "ability": {
+        "name": "ice-body"
+      }
+    },
+    {
+      "ability": {
+        "name": "oblivious"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 90
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 65
+    }
+  ]
+}

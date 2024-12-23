@@ -1,0 +1,72 @@
+{
+  "name": "krookodile",
+  "height": 15,
+  "weight": 963,
+  "types": [
+    {
+      "type": {
+        "name": "ground"
+      }
+    },
+    {
+      "type": {
+        "name": "dark"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "intimidate"
+      }
+    },
+    {
+      "ability": {
+        "name": "moxie"
+      }
+    },
+    {
+      "ability": {
+        "name": "anger-point"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 117
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 80
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 92
+    }
+  ]
+}

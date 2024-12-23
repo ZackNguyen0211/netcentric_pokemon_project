@@ -1,0 +1,72 @@
+{
+  "name": "lanturn",
+  "height": 12,
+  "weight": 225,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "electric"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "volt-absorb"
+      }
+    },
+    {
+      "ability": {
+        "name": "illuminate"
+      }
+    },
+    {
+      "ability": {
+        "name": "water-absorb"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 125
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 58
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 58
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 76
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 76
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 67
+    }
+  ]
+}

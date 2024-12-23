@@ -1,0 +1,72 @@
+{
+  "name": "jellicent",
+  "height": 22,
+  "weight": 1350,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    },
+    {
+      "type": {
+        "name": "ghost"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "water-absorb"
+      }
+    },
+    {
+      "ability": {
+        "name": "cursed-body"
+      }
+    },
+    {
+      "ability": {
+        "name": "damp"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 60
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 105
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 60
+    }
+  ]
+}

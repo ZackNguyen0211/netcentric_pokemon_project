@@ -1,0 +1,67 @@
+{
+  "name": "torkoal",
+  "height": 5,
+  "weight": 804,
+  "types": [
+    {
+      "type": {
+        "name": "fire"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "white-smoke"
+      }
+    },
+    {
+      "ability": {
+        "name": "drought"
+      }
+    },
+    {
+      "ability": {
+        "name": "shell-armor"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 140
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 20
+    }
+  ]
+}

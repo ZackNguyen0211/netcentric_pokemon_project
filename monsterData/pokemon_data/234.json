@@ -1,0 +1,67 @@
+{
+  "name": "stantler",
+  "height": 14,
+  "weight": 712,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "intimidate"
+      }
+    },
+    {
+      "ability": {
+        "name": "frisk"
+      }
+    },
+    {
+      "ability": {
+        "name": "sap-sipper"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 73
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 95
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 62
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 85
+    }
+  ]
+}

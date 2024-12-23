@@ -1,0 +1,57 @@
+{
+  "name": "unown",
+  "height": 5,
+  "weight": 50,
+  "types": [
+    {
+      "type": {
+        "name": "psychic"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "levitate"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 72
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 48
+    }
+  ]
+}

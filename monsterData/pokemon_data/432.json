@@ -1,0 +1,67 @@
+{
+  "name": "purugly",
+  "height": 10,
+  "weight": 438,
+  "types": [
+    {
+      "type": {
+        "name": "normal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "thick-fat"
+      }
+    },
+    {
+      "ability": {
+        "name": "own-tempo"
+      }
+    },
+    {
+      "ability": {
+        "name": "defiant"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 71
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 82
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 64
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 64
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 59
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 112
+    }
+  ]
+}

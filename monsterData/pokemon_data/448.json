@@ -1,0 +1,72 @@
+{
+  "name": "lucario",
+  "height": 12,
+  "weight": 540,
+  "types": [
+    {
+      "type": {
+        "name": "fighting"
+      }
+    },
+    {
+      "type": {
+        "name": "steel"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "steadfast"
+      }
+    },
+    {
+      "ability": {
+        "name": "inner-focus"
+      }
+    },
+    {
+      "ability": {
+        "name": "justified"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 110
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 90
+    }
+  ]
+}

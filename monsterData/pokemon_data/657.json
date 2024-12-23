@@ -1,0 +1,62 @@
+{
+  "name": "frogadier",
+  "height": 6,
+  "weight": 109,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "torrent"
+      }
+    },
+    {
+      "ability": {
+        "name": "protean"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 54
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 63
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 52
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 83
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 56
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 97
+    }
+  ]
+}

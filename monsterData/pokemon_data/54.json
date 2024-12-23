@@ -1,0 +1,67 @@
+{
+  "name": "psyduck",
+  "height": 8,
+  "weight": 196,
+  "types": [
+    {
+      "type": {
+        "name": "water"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "damp"
+      }
+    },
+    {
+      "ability": {
+        "name": "cloud-nine"
+      }
+    },
+    {
+      "ability": {
+        "name": "swift-swim"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 52
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 48
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 50
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 55
+    }
+  ]
+}

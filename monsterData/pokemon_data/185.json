@@ -1,0 +1,67 @@
+{
+  "name": "sudowoodo",
+  "height": 12,
+  "weight": 380,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "sturdy"
+      }
+    },
+    {
+      "ability": {
+        "name": "rock-head"
+      }
+    },
+    {
+      "ability": {
+        "name": "rattled"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 70
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 100
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 115
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 30
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 30
+    }
+  ]
+}

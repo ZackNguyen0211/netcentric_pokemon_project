@@ -1,0 +1,67 @@
+{
+  "name": "roggenrola",
+  "height": 4,
+  "weight": 180,
+  "types": [
+    {
+      "type": {
+        "name": "rock"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "sturdy"
+      }
+    },
+    {
+      "ability": {
+        "name": "weak-armor"
+      }
+    },
+    {
+      "ability": {
+        "name": "sand-force"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 55
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 75
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 85
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 25
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 15
+    }
+  ]
+}

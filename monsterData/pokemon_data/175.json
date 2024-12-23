@@ -1,0 +1,67 @@
+{
+  "name": "togepi",
+  "height": 3,
+  "weight": 15,
+  "types": [
+    {
+      "type": {
+        "name": "fairy"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "ability": {
+        "name": "hustle"
+      }
+    },
+    {
+      "ability": {
+        "name": "serene-grace"
+      }
+    },
+    {
+      "ability": {
+        "name": "super-luck"
+      }
+    }
+  ],
+  "stats": [
+    {
+      "stat": {
+        "name": "hp"
+      },
+      "base_stat": 35
+    },
+    {
+      "stat": {
+        "name": "attack"
+      },
+      "base_stat": 20
+    },
+    {
+      "stat": {
+        "name": "defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "special-attack"
+      },
+      "base_stat": 40
+    },
+    {
+      "stat": {
+        "name": "special-defense"
+      },
+      "base_stat": 65
+    },
+    {
+      "stat": {
+        "name": "speed"
+      },
+      "base_stat": 20
+    }
+  ]
+}
