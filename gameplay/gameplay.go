@@ -15,35 +15,36 @@ type Move struct {
 }
 
 type Pokemon struct {
-	Name      string `json:"name"`
-	Height    int    `json:"height"`
-	Weight    int    `json:"weight"`
-	HP        int
-	Attack    int
-	Special   int
-	Speed     int
-	Stats     []struct {
+	Name          string `json:"name"`
+	Height        int    `json:"height"`
+	Weight        int    `json:"weight"`
+	HP            int
+	Attack        int
+	Special       int
+	Speed         int
+	Stats         []struct {
 		Stat struct {
 			Name string `json:"name"`
 		} `json:"stat"`
 		BaseStat int `json:"base_stat"`
 	} `json:"stats"`
-	Types []struct {
+	Types         []struct {
 		Type struct {
 			Name string `json:"name"`
 		} `json:"type"`
 	} `json:"types"`
-	Abilities []struct {
+	Abilities     []struct {
 		Ability struct {
 			Name string `json:"name"`
 		} `json:"ability"`
 	} `json:"abilities"`
+	DefenseBoost  int
 }
 
 type Player struct {
 	ID                  string     `json:"id"`
 	Name                string     `json:"name"`
-	Pokemon             []Pokemon `json:"pokemon"`
+	Pokemon             []Pokemon  `json:"pokemon"`
 	CurrentPokemonIndex int        `json:"current_pokemon_index"`
 }
 
@@ -106,18 +107,9 @@ func ReadPokemonData(number string) (Pokemon, error) {
 	return pokemon, nil
 }
 
-
-// Function to get Pokémon's defense stat (simplified for now)
-func (pokemon *Pokemon) Defense() int {
-	// Simplified defense
-	return pokemon.Weight / 10
-}
-
-// Function to check if a player has any remaining Pokémon
+// Function to check if a player has any remaining Pokémon (unchanged)
 func hasRemainingPokemon(player *Player) bool {
-	log.Printf("Checking remaining Pokémon for %s:", player.Name)
 	for _, pkmn := range player.Pokemon {
-		log.Printf("  %s HP: %d", pkmn.Name, pkmn.HP)
 		if pkmn.HP > 0 {
 			return true
 		}
@@ -125,75 +117,93 @@ func hasRemainingPokemon(player *Player) bool {
 	return false
 }
 
+// Helper function to get Pokémon's defense stat (simplified)
+func (pokemon *Pokemon) Defense() int {
+	// Simplified defense calculation based on weight
+	return pokemon.Weight / 10
+}
 
-// Function to handle player attacks
-func attack(attacker *Pokemon, defender *Pokemon, move Move) {
+// Function to execute an attack (modified name to ExecuteAttack)
+func ExecuteAttack(battle *Battle, playerID string) {
+	var attacker *Pokemon
+	var defender *Pokemon
+	var currentPlayer *Player
+	var opposingPlayer *Player
+
+	// Determine the current player and opposing player based on playerID
+	if playerID == "player1" {
+		currentPlayer = &battle.Player1
+		opposingPlayer = &battle.Player2
+	} else {
+		currentPlayer = &battle.Player2
+		opposingPlayer = &battle.Player1
+	}
+
+	// Get the current Pokémon for both players
+	attacker = &currentPlayer.Pokemon[currentPlayer.CurrentPokemonIndex]
+	defender = &opposingPlayer.Pokemon[opposingPlayer.CurrentPokemonIndex]
+
+	// Assume a simple attack move (Tackle)
+	move := Move{Name: "Tackle", Damage: 40, Special: false}
+
+	// Calculate damage (taking into account defender's defense)
 	var damage int
 	if move.Special {
-		// Special attack
-		damage = attacker.Special - defender.Defense()
+		// Special move damage
+		damage = attacker.Special + move.Damage - defender.Defense()
 	} else {
-		// Normal attack
-		damage = attacker.Attack - defender.Defense()
-	}
-	if damage < 1 {
-		damage = 1
+		// Regular move damage
+		damage = attacker.Attack + move.Damage - defender.Defense()
 	}
 
+	// Apply defense boost if defender has it
+	if defender.DefenseBoost > 0 {
+		damage -= defender.DefenseBoost
+		if damage < 1 {
+			damage = 1
+		}
+		defender.DefenseBoost = 0 // Reset defense boost after it's applied
+	}
+
+	// Apply damage to the defender's HP
 	defender.HP -= damage
 	if defender.HP < 0 {
 		defender.HP = 0
 	}
+
 	log.Printf("%s attacked %s with %s, causing %d damage!", attacker.Name, defender.Name, move.Name, damage)
+
+	// If the defender's Pokémon fainted, move to the next one
+	if defender.HP <= 0 {
+		opposingPlayer.CurrentPokemonIndex++
+	}
+
+	// Check if the opposing player has any remaining Pokémon
+	if !hasRemainingPokemon(opposingPlayer) {
+		log.Printf("%s has no remaining Pokémon! %s wins!", opposingPlayer.Name, currentPlayer.Name)
+		// Handle game win condition here
+		return
+	}
 }
 
-// Function to execute the turn and switch between players
-func ExecuteTurn(battle *Battle) {
-	// Check whose turn it is
-	if battle.Turn%2 == 1 {
-		// Player 1's turn
-		log.Printf("Player 1's turn!")
+// Function to execute the defend action (new)
+func ExecuteDefend(battle *Battle, playerID string) {
+	var defender *Pokemon
+	var currentPlayer *Player
 
-		// Example of a player action (attack, move, etc.)
-		// Assume we are just attacking with the first move
-		move := Move{Name: "Tackle", Damage: 40, Special: false}
-		attack(&battle.Player1.Pokemon[battle.Player1.CurrentPokemonIndex], &battle.Player2.Pokemon[battle.Player2.CurrentPokemonIndex], move)
-
-		// Check if Player 2's Pokémon is fainted, if so, move to the next one
-		if battle.Player2.Pokemon[battle.Player2.CurrentPokemonIndex].HP <= 0 {
-			battle.Player2.CurrentPokemonIndex++
-		}
-
+	// Determine the current player and opposing player based on playerID
+	if playerID == "player1" {
+		currentPlayer = &battle.Player1
 	} else {
-		// Player 2's turn
-		log.Printf("Player 2's turn!")
-
-		// Example of a player action (attack, move, etc.)
-		// Assume we are just attacking with the first move
-		move := Move{Name: "Tackle", Damage: 40, Special: false}
-		attack(&battle.Player2.Pokemon[battle.Player2.CurrentPokemonIndex], &battle.Player1.Pokemon[battle.Player1.CurrentPokemonIndex], move)
-
-		// Check if Player 1's Pokémon is fainted, if so, move to the next one
-		if battle.Player1.Pokemon[battle.Player1.CurrentPokemonIndex].HP <= 0 {
-			battle.Player1.CurrentPokemonIndex++
-		}
+		currentPlayer = &battle.Player2
 	}
 
-	// Check if Player 1 has any remaining Pokémon
-	if !hasRemainingPokemon(&battle.Player1) {
-		log.Printf("Player 1 has no remaining Pokémon! Player 2 wins!")
-		// You can implement a win condition here and return if desired
-		return
-	}
+	// Get the current Pokémon for both players
+	defender = &currentPlayer.Pokemon[currentPlayer.CurrentPokemonIndex]
 
-	// Check if Player 2 has any remaining Pokémon
-	if !hasRemainingPokemon(&battle.Player2) {
-		log.Printf("Player 2 has no remaining Pokémon! Player 1 wins!")
-		// You can implement a win condition here and return if desired
-		return
-	}
+	// Increase the defender's defense boost for the next attack
+	defender.DefenseBoost += 10 // Arbitrary boost value for this example
 
-	// End of turn, increment turn counter
-	battle.Turn++
+	log.Printf("%s chose to defend! %s's defense will be boosted on the next attack.", defender.Name, defender.Name)
+
 }
-

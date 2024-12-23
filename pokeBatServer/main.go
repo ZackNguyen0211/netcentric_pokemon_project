@@ -58,6 +58,22 @@ func handleBattleRequest(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(battle)
 }
 
+// Handle fetching the current battle state
+func handleBattleState(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	if battle == nil {
+		http.Error(w, "No active battle", http.StatusNotFound)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(battle)
+}
+
 // Handle actions for each turn
 func handleAction(w http.ResponseWriter, r *http.Request) {
 	// Ensure method is POST
@@ -76,24 +92,39 @@ func handleAction(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// If it's the player's turn, process the action
-	if actionRequest.PlayerID == "player1" && battle.Turn%2 == 1 ||
-		actionRequest.PlayerID == "player2" && battle.Turn%2 == 0 {
-		// Execute turn logic from gameplay package
-		gameplay.ExecuteTurn(battle)
-
-		// Respond with updated battle state
-		w.Header().Set("Content-Type", "application/json")
-		json.NewEncoder(w).Encode(battle)
-	} else {
+	// Check if the current turn matches the requesting player
+	isPlayer1Turn := battle.Turn%2 == 1
+	if (actionRequest.PlayerID == "player1" && !isPlayer1Turn) ||
+		(actionRequest.PlayerID == "player2" && isPlayer1Turn) {
 		http.Error(w, "Not your turn", http.StatusBadRequest)
+		return
 	}
+
+	// Execute turn logic
+	switch strings.ToLower(actionRequest.Action) {
+	case "attack":
+		gameplay.ExecuteAttack(battle, actionRequest.PlayerID)
+	case "defend":
+		gameplay.ExecuteDefend(battle, actionRequest.PlayerID)
+	default:
+		http.Error(w, "Invalid action", http.StatusBadRequest)
+		return
+	}
+
+	// Increment turn
+	battle.Turn++
+
+	// Respond with updated battle state
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(battle)
 }
+
 
 // Main function to start the server
 func main() {
-	// Handle battle requests at '/battle'
-	http.HandleFunc("/battle", handleBattleRequest)
+
+	http.HandleFunc("/start_battle", handleBattleRequest)
+	http.HandleFunc("/battle", handleBattleState)
 	http.HandleFunc("/action", handleAction)
 
 	// Start the server
