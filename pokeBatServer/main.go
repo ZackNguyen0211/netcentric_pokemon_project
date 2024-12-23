@@ -58,7 +58,7 @@ func handleBattleRequest(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(battle)
 }
 
-// Handle fetching the current battle state
+// Handle fetching the current battle state GET method
 func handleBattleState(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
@@ -118,7 +118,6 @@ func handleAction(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(battle)
 }
-
 
 // Main function to start the server
 func main() {

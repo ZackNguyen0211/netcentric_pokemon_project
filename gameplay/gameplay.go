@@ -107,7 +107,6 @@ func ReadPokemonData(number string) (Pokemon, error) {
 	return pokemon, nil
 }
 
-// Function to check if a player has any remaining Pokémon (unchanged)
 func hasRemainingPokemon(player *Player) bool {
 	for _, pkmn := range player.Pokemon {
 		if pkmn.HP > 0 {
@@ -117,20 +116,16 @@ func hasRemainingPokemon(player *Player) bool {
 	return false
 }
 
-// Helper function to get Pokémon's defense stat (simplified)
 func (pokemon *Pokemon) Defense() int {
-	// Simplified defense calculation based on weight
 	return pokemon.Weight / 10
 }
 
-// Function to execute an attack (modified name to ExecuteAttack)
 func ExecuteAttack(battle *Battle, playerID string) {
 	var attacker *Pokemon
 	var defender *Pokemon
 	var currentPlayer *Player
 	var opposingPlayer *Player
 
-	// Determine the current player and opposing player based on playerID
 	if playerID == "player1" {
 		currentPlayer = &battle.Player1
 		opposingPlayer = &battle.Player2
@@ -143,10 +138,8 @@ func ExecuteAttack(battle *Battle, playerID string) {
 	attacker = &currentPlayer.Pokemon[currentPlayer.CurrentPokemonIndex]
 	defender = &opposingPlayer.Pokemon[opposingPlayer.CurrentPokemonIndex]
 
-	// Assume a simple attack move (Tackle)
 	move := Move{Name: "Tackle", Damage: 40, Special: false}
 
-	// Calculate damage (taking into account defender's defense)
 	var damage int
 	if move.Special {
 		// Special move damage
@@ -162,7 +155,7 @@ func ExecuteAttack(battle *Battle, playerID string) {
 		if damage < 1 {
 			damage = 1
 		}
-		defender.DefenseBoost = 0 // Reset defense boost after it's applied
+		defender.DefenseBoost = 0
 	}
 
 	// Apply damage to the defender's HP
@@ -202,8 +195,7 @@ func ExecuteDefend(battle *Battle, playerID string) {
 	defender = &currentPlayer.Pokemon[currentPlayer.CurrentPokemonIndex]
 
 	// Increase the defender's defense boost for the next attack
-	defender.DefenseBoost += 10 // Arbitrary boost value for this example
+	defender.DefenseBoost += 100
 
 	log.Printf("%s chose to defend! %s's defense will be boosted on the next attack.", defender.Name, defender.Name)
-
 }
